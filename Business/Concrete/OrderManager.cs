@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Business.Concrete
 {
-    internal class OrderManager : IOrderService
+    public class OrderManager : IOrderService
     {
         private readonly IOrderDal _orderDal;
 
